@@ -2,7 +2,7 @@
 		        <div class="col-md-12 header">My Assignments
 		        	<ul class="centered fill">
 		        		<li><a href="./Week01/hello.html"><div class="button">Week 01<br /></div></a></li>
-		                <li><a href="./week02/intro.php"><div class="button">Week 02<br /></div></a></li>
+		                <li><a href="./week02/index.html"><div class="button">Week 02<br /></div></a></li>
 		                <li><a href="./week03/assign03.html"><div class="button">Week 03<br /></div></a></li>
 		                <li><a href="./week04/assign04.html"><div class="button">Week 04<br /></div></a></li>
 		                <li><a href="./week05/assign05.html"><div class="button">Week 05<br /></div></a></li>

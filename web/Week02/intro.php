@@ -9,7 +9,7 @@
 				Our favorite place to go together is the beach!
 				I really enjoy surfing; my wife likes taking pictures and our kids just love the sand!</p>
 
-				<div class="centered fill img1"><img src="./Week02/Family1.jpg" alt="Image 3"/></div>
+				<div class="col-md-12 col-sm-12 centered fill img1"><img src="./Week02/Family1.jpg" alt="Image 3" style="width: 400px; height: 300px;"/></div>
 
 			</div>
 
@@ -18,8 +18,8 @@
 				<h6></h6>
 				<table class="centered fill">
 					<tr>
-						<td class="img2">My family!<img src="./Week02/Family2.jpeg" alt="Image 1"/></td>
-						<td class="img2">Me!<img src="./Week02/Img2.jpg" alt="Image 2"/></td>
+						<td class="img2">My family!<img src="./Week02/Family2.jpeg" alt="Image 1" style="width: 300px; height: 400px;"/></td>
+						<td class="img2">Me!<img src="./Week02/Img2.jpg" alt="Image 2" style="width: 300px; height: 400px;"/></td>
 					</tr>
 				</table>
 
