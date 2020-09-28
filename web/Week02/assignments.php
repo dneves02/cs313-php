@@ -1,14 +1,3 @@
-<?php $title = 'Home'; ?>
-
-<?php $currentPage = 'index'; ?>
-
-<?php include('head.php'); ?>
-
-<body>
-<?php include('nav-bar.php'); ?>
-
-<?php include('intro.php'); ?>
-
             <div class="row section" id="section3">
 		        <div class="col-md-12 header">My Assignments
 		        	<ul class="centered fill">
@@ -28,5 +17,3 @@
 		            </ul>
 		        </div>
 	        </div>
-
-<?php include('footer.php'); ?>

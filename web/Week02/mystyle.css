@@ -55,12 +55,28 @@ body {
     font-size: 24px;
 }
 
+.home-header {
+    font-size: 30px;
+    font-variant: small-caps;
+    text-shadow: 3px 3px rgb(179, 190, 192);
+}
+
 .section-header {
     font-size: 20px;
 }
 
 .center-text {
     text-align: center;
+}
+
+.img1 {
+    width: 500px;
+    height: 400px;
+}
+
+.img2 {
+    width: 300px;
+    height: 400px;
 }
 
 ul {
