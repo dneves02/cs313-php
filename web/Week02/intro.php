@@ -18,10 +18,8 @@
 				<h6></h6>
 				<table class="centered">
 					<tr>
-					    <td class="center-text">My family!</td>
-						<td class="img2"><img src="./Week02/Family2.jpeg" alt="Image 1"/></td>
-						<td class="center-text">Me!</td>
-						<td class="img2"><img src="./Week02/Img2.jpg" alt="Image 2"/></td>
+						<td class="img2">My family!<img src="./Week02/Family2.jpeg" alt="Image 1"/></td>
+						<td class="img2">Me!<img src="./Week02/Img2.jpg" alt="Image 2"/></td>
 					</tr>
 				</table>
 
