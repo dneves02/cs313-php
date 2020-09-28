@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>?php echo($title); ?></title>
+        <title>?php echo($title);?></title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./Week02/mystyle.css">
 

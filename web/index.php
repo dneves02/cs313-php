@@ -1,4 +1,4 @@
-<?php $title = 'Home'; ?>
+<?php $title = 'Davi Home Page'; ?>
 <?php $currentPage = 'index'; ?>
 
 <?php include('./Week02/head.php'); ?>
