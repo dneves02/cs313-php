@@ -5,10 +5,6 @@ body {
     background-color: #262626;
 }
 
-.meta-wrapper {
-    max-width: 1000px;
-    margin: 10px auto 10px auto;
-}
 
 .banner-top, .content-top, .button, .button-2 {
     border-radius: 5px;

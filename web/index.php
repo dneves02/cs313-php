@@ -9,4 +9,3 @@
         <?php include('./Week02/intro.php'); ?>
         <?php include('./Week02/assignments.php'); ?>
         <?php include('./Week02/footer.php'); ?>
-    </div>

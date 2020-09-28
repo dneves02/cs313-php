@@ -1,5 +1,5 @@
            	<div class="row">
-		        <div class="col-md-12 col-sm-12 section">
+		        <div class="col-md-9 col-sm-9 section">
 					<div class="banner-top center-text fill">
 						<!-- EXAMPLE OF INLINE STYLE -->
 						<span class="home-header hover-bold">Welcome to Davi Neves Home Page</span>
@@ -12,7 +12,7 @@
 				</div>
 	        </div>
 			<div class="row content-top fill">
-				<div class="col-md-12 col-sm-12 section" id="section0.4">
+				<div class="col-md-9 col-sm-9 section" id="section0.4">
 					<div class="header">Index</div>
 					<ul class="b">
 						<li><a href="#section1">About Me</a></li>
