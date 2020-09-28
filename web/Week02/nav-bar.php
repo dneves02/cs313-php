@@ -1,5 +1,4 @@
-         <div class="container">
-	    	<div class="row">
+           	<div class="row">
 		        <div class="col-md-12 col-sm-12 section">
 					<div class="banner-top center-text fill">
 						<!-- EXAMPLE OF INLINE STYLE -->
