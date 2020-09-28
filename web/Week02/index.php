@@ -2,7 +2,7 @@
 
 <?php $currentPage = 'index'; ?>
 
-<?php include('header.php'); ?>
+<?php include('head.php'); ?>
 
 <body>
 <?php include('nav-bar.php'); ?>

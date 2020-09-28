@@ -16,8 +16,8 @@
 				<div class="col-md-12 col-sm-12 section" id="section0.4">
 					<div class="header">Index</div>
 					<ul class="b">
-						<li><a href="#section1">My Family</a></li>
-						<li><a href="#section2">Pictures</a></li>
+						<li><a href="/week02/intro.php">My Family</a></li>
+						<li><a href="/week02/intro.php">Pictures</a></li>
 						<li><a href="#section3">My Assignments</a></li>
 
 					</ul>
