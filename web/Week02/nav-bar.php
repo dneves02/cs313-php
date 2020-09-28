@@ -1,12 +1,12 @@
          <div class="container">
 	    	<div class="row">
-		        <div class="col-md-12 col-sm-12 meta-wrapper">
+		        <div class="col-md-12 col-sm-12">
 					<div class="banner-top center-text fill">
 						<!-- EXAMPLE OF INLINE STYLE -->
 						<span class="home-header hover-bold">Welcome to Davi Neves Home Page</span>
 						<br /> <a href="#section4">Send me an email</a>
 					</div>
-		            <div class="hover-bold">Brigham Young University &ndash; Idaho</div>
+		            <div class="header hover-bold">Brigham Young University &ndash; Idaho</div>
 		        	<div>
 		            	<span class="header">CS 341 Web Backend Development</span>
 		        	</div>
