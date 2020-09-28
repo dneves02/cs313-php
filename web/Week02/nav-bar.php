@@ -3,11 +3,11 @@
 		        <div class="col-md-12 col-sm-12 meta-wrapper">
 					<div class="banner-top center-text fill">
 						<!-- EXAMPLE OF INLINE STYLE -->
-						<span class="home-header">Welcome to Davi Neves Home Page</span>
+						<span class="home-header hover-bold">Welcome to Davi Neves Home Page</span>
 						<br /> <a href="#section4">Send me an email</a>
 					</div>
-		            <div id="div1" class="div-first hover-bold">Brigham Young University &ndash; Idaho</div>
-		        	<div id="div2" class="div-later hover-bold" class="banner-top center-text fill">
+		            <div class="hover-bold">Brigham Young University &ndash; Idaho</div>
+		        	<div>
 		            	<span class="header">CS 341 Web Backend Development</span>
 		        	</div>
 				</div>
