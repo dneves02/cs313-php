@@ -15,26 +15,6 @@ body {
     font-size: 16px;
 }
 
-.banner-top {
-    padding: 10px 0px 10px 0px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-    background-color: #adf;
-    box-shadow: 0 5px #79b;
-}
-
-.content-top {
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-    margin: 10px auto 10px auto;
-    background-color: #57a;
-    padding: 10px 0px 10px 0px;
-    box-shadow: 0 5px #257;
-    color: #0ff;
-}
-
 
 .section {
     width: 90%;

@@ -1,6 +1,6 @@
          <div class="container">
 	    	<div class="row">
-		        <div class="col-md-12 col-sm-12">
+		        <div class="col-md-12 col-sm-12 section">
 					<div class="banner-top center-text fill">
 						<!-- EXAMPLE OF INLINE STYLE -->
 						<span class="home-header hover-bold">Welcome to Davi Neves Home Page</span>
