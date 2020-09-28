@@ -9,7 +9,7 @@
 				Our favorite place to go together is the beach!
 				I really enjoy surfing; my wife likes taking pictures and our kids just love the sand!</p>
 
-				<div class="col-md-12 col-sm-12 centered fill img1"><img src="./Week02/Family1.jpg" alt="Image 3" style="width: 400px; height: 300px;"/></div>
+				<div class="col-md-12 col-sm-12 centered fill img1">That's us!<img src="./Week02/Family1.jpg" alt="Image 3" style="width: 640px; height: 460px;"/></div>
 
 			</div>
 
