@@ -1,4 +1,4 @@
-<git ?php $title = 'Profile';?>
+<?php $title = 'Profile';?>
 <?php $currentPage = 'intro';?>
 
 <?php include('./head.php');?>
