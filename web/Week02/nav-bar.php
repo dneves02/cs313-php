@@ -7,9 +7,9 @@
 						<span class="home-header hover-bold">Welcome to Davi Neves Home Page</span>
 						<br /> <a href="#section4">Send me an email</a>
 					</div>
-		            <div class="header hover-bold">Brigham Young University &ndash; Idaho</div>
+		            <div class="header center-text">Brigham Young University &ndash; Idaho</div>
 		        	<div>
-		            	<span class="header">CS 341 Web Backend Development</span>
+		            	<span class="center-text">CS 341 Web Backend Development</span>
 		        	</div>
 				</div>
 	        </div>
