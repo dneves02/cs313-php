@@ -4,7 +4,7 @@
 <?php include('head.php');?>
 
 <body>
-    
+
     <div class="container">
 
         <?php include('nav-bar.php');?>
