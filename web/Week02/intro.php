@@ -1,12 +1,13 @@
 <?php $title = 'Profile';?>
 <?php $currentPage = 'intro';?>
 
-<?php include('./Week02/head.php');?>
+<?php include('head.php');?>
 
 <body>
+    <link rel="stylesheet" href="mystyle.css">
     <div class="container">
 
-        <?php include('./Week02/nav-bar.php');?>
+        <?php include('nav-bar.php');?>
 
 
             <div class="row section" id="section1">
