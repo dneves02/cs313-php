@@ -8,9 +8,7 @@
 						<br /> <a href="#section4">Send me an email</a>
 					</div>
 		            <div class="header center-text">Brigham Young University &ndash; Idaho</div>
-		        	<div>
-		            	<span class="center-text">CS 341 Web Backend Development</span>
-		        	</div>
+		        	<div class="section-header center-text">CS 341 Web Backend Development</div>
 				</div>
 	        </div>
 			<div class="row section">
