@@ -1,4 +1,12 @@
+<?php $title = 'Profile';?>
+<?php $currentPage = 'intro';?>
 
+<?php include('./Week02/head.php');?>
+
+<body>
+    <div class="container">
+
+        <?php include('./Week02/nav-bar.php');?>
 
 
             <div class="row section" id="section1">
@@ -27,3 +35,5 @@
 				</table>
 
 			</div>
+
+    <?php include('./Week02/footer.php');?>

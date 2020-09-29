@@ -1,10 +1,10 @@
 @charset "ISO-8859-1";
+
 body {
     font-family: 'Verdana', sans-serif;
     font-size: 16px;
     background-color: #262626;
 }
-
 
 .banner-top, .content-top, .button, .button-2 {
     border-radius: 5px;
@@ -19,9 +19,6 @@ body {
     background-color: #adf;
     box-shadow: 0 5px #79b;
 }
-
-
-
 
 .section {
     margin: 10px auto 10px auto;
