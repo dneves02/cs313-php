@@ -33,6 +33,7 @@ body {
 }
 
 .header, .section-header {
+    padding: 10px 0px 10px 0px;
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
 }
