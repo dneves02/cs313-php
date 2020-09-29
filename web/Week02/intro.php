@@ -4,7 +4,7 @@
 <?php include('head.php');?>
 
 <body>
-    <link rel="stylesheet" href="mystyle.css">
+    
     <div class="container">
 
         <?php include('nav-bar.php');?>
