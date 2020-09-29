@@ -1,3 +1,4 @@
+
 <?php $title = 'Home Page';?>
 <?php $currentPage = 'index';?>
 
