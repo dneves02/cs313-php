@@ -4,7 +4,7 @@
     <head>
         <title>?php echo($title);?></title>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="./mystyle.css">
 
         <!-- CSS only -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -35,7 +35,7 @@
 				Our favorite place to go together is the beach!
 				I really enjoy surfing; my wife likes taking pictures and our kids just love the sand!</p>
 
-				<div class="col-md-9 col-sm-9 centered fill img1"><img src="./Week02/Family1.jpg" alt="Image 3" style="width: 640px; height: 460px;"/></div>
+				<div class="col-md-9 col-sm-9 centered fill img1"><img src="./Family1.jpg" alt="Image 3" style="width: 640px; height: 460px;"/></div>
 
 			</div>
 
@@ -44,8 +44,8 @@
 				<h6></h6>
 				<table class="centered fill">
 					<tr>
-						<td class="img2">My family!<img src="./Week02/Family2.jpeg" alt="Image 1" style="width: 300px; height: 400px;"/></td>
-						<td class="img2">Me!<img src="./Week02/Img2.jpg" alt="Image 2" style="width: 300px; height: 400px;"/></td>
+						<td class="img2">My family!<img src="./Family2.jpeg" alt="Image 1" style="width: 300px; height: 400px;"/></td>
+						<td class="img2">Me!<img src="./Img2.jpg" alt="Image 2" style="width: 300px; height: 400px;"/></td>
 					</tr>
 				</table>
 
