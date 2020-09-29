@@ -21,7 +21,7 @@
 
     <div class="container">
 
-        <?php include('nav-bar.php');?>
+        <?php include('header.php');?>
 
 
             <div class="row section" id="section1">
