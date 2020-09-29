@@ -1,3 +1,6 @@
+
+
+
             <div class="row section" id="section3">
 		        <div class="col-md-12 header">My Assignments
 		        	<ul class="centered fill">
