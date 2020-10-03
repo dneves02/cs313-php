@@ -1,5 +1,5 @@
 
-<?php $title = 'Bookstore';?>
+<?php $title = 'Neves Bookstore';?>
 <?php $currentPage = 'Home';?>
 
 <?php include('./Week02/head.php');?>
