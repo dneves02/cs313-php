@@ -35,7 +35,7 @@
                     <p>Please carefully review your order information before you submit it.</p>
                     
                    
-                    <h3 class="">Items purchased</h3>
+                    <h3 class="">Items selected:</h3>
 
                     <?php
                         $txt = "<div class='d-card-columns'>";
