@@ -1,3 +1,8 @@
+function checkOut()
+{
+    window.location.replace = "checkout.php";
+
+}
 
 function addTotal(ifclicked)
 {

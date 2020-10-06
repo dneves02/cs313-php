@@ -1,6 +1,16 @@
 <?php $title = 'Neves Bookstore';?>
 <?php $currentPage = 'Checkout';?>
+<?php
+   if(isset($_POST[""])
+     {
+         //echo $_POST["address1"];
+            $address=$_POST["address1"];
+      }
+?>
 
+
+
+document.getElementById('from').value = "<?php echo $address?>";
 <?php include('head.php');?>
 
 <?php include('header.php');?>
