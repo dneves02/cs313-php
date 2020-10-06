@@ -213,6 +213,7 @@
 
 
                     <form action="orderConfirmation.php" method="GET" class="buttons">
+                        <input type="text" name="totalCost" value="$totalCost">
                     <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>    
                     <div class="form-box">
 							First Name<br>
