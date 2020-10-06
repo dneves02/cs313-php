@@ -1,6 +1,13 @@
 <?php
     $confirm =      $_GET ["btn-submit"];
     $cancel =       $_GET ["btn-cancel"];
+    $firstName =      $_GET ["first_name"];
+    $lastName =       $_GET ["last_name"];
+    $address =        $_GET ["address"];
+    $phone =          $_GET ["phone"];
+    $cardType =       $_GET ["card"];
+    $cardExpiration = $_GET ["exp_date"];
+    
 ?>
 
 <?php include('head.php');?>
@@ -22,6 +29,21 @@
                         print "<h2>Your order was cancelled!</h2>";
                     }
                     ?>
+<h2 class="alert-heading">Order Confirmation for:</h2>
+	
+    <?php print "<h2>$firstName $lastName</h2>";?>
+
+<?php
+ print "<h3>Your total is <b>$$totalCost</b></h3>";
+ print "First Name: $firstName<br />";
+ print "Last Name: $lastName<br />";
+ print "Address: $address<br />";
+ print "Phone Number: $phone<br />";
+ print "Credit Card Type: $cardType<br />";
+ print "Credit Card Number: **** **** **** $cardLast4<br />";
+ print "Credit Card Expiration Date: $cardExpiration<br />";
+?>
+
                 </div>
 			</div>
         </section>
