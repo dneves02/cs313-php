@@ -27,11 +27,11 @@
 <?php include('head.php');?>
 
 <?php include('header.php');?>
-
-                <div class="col-9 col-s-9">
-                    <h2 class="alert-heading">Order Confirmation for
-                    
-                    </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-9 col-s-9">
+                <section>
+                    <h2 class="alert-heading">Shopping Cart</h2>
                     <p>Please carefully review your order information before you submit it.</p>
                     
                    
@@ -222,9 +222,10 @@
                         <input id="confirm" type="submit" name="btn-submit" value="Confirm">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
                     </form>
-				</div>
-			</div>
-        </section>    
+				
+            </section>
+		</div>    
     </div>
-    
+
     <?php include('footer.php');?>
+
