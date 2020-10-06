@@ -217,7 +217,7 @@
 
                     ?>
 
-                    <form action="assign03a.php" method="GET" class="buttons">
+                    <form action="orderConfirmation.php" method="GET" class="buttons">
                         <h3>Do you want to submit this order?</h3>
                         <input id="confirm" type="submit" name="btn-submit" value="Confirm">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
