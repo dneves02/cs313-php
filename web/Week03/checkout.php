@@ -213,8 +213,7 @@ session_start();
                     ?>
 
 
-                    <form action="orderConfirmation.php" method="GET" class="buttons">
-                        <input style="display: none;" type="text" name="totalCost" value="<?php $totalCost?>">
+                    <form action="orderConfirmation.php?totalCost=<?php echo $totalCost ?>" method="GET" class="buttons">
                     <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>    
                     <div class="form-box">
 							First Name<br>
@@ -248,7 +247,7 @@ session_start();
 							<span id="dateVerify" class="error" style="visibility: hidden;">Please enter an expiration date</span>
                     
                         <h3>Do you want to submit this order?</h3>
-                        <input id="confirm" type="submit" name="btn-submit" value="Confirm">
+                        <input id="confirm" type="submit" name="btn-submit" value="Confirm">Check Out
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
                     </form>
 				
