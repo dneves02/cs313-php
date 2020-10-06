@@ -1,15 +1,7 @@
 <?php
-    $firstName =      $_GET ["first_name"];
-    $lastName =       $_GET ["last_name"];
-    $address =        $_GET ["address"];
-    $phone =          $_GET ["phone"];
-    $cardType =       $_GET ["card"];
-    $cardExpiration = $_GET ["exp_date"];
-
-    //Made substring for cardNumber to output the last 4
-    $cardNumber =       $_GET ["credit_card"];
-    $cardLast4 = substr($cardNumber, 15, 19);
-
+session_start();
+$_SESSION['totalCost'] = $totalCost;
+    
     $item_0 =  $_GET ["item_0"];
     $item_1 =  $_GET ["item_1"];
     $item_2 =  $_GET ["item_2"];
@@ -27,6 +19,7 @@
 <?php include('head.php');?>
 
 <?php include('header.php');?>
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-s-12">

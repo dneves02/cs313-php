@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+    $totalCost = $_GET['totalCost'];
     $confirm =      $_GET ["btn-submit"];
     $cancel =       $_GET ["btn-cancel"];
     $firstName =      $_GET ["first_name"];
@@ -29,14 +32,13 @@
                         print "<h2>Your order was cancelled!</h2>";
                     }
                     ?>
-<h2 class="alert-heading">Order Confirmation for:</h2>
+
 	
-    <?php print "<h2>$firstName $lastName</h2>";?>
+<?php print "<h2>$firstName $lastName</h2>";?>
 
 <?php
  print "<h3>Your total is: <b>$$totalCost</b></h3>";
- print "First Name: $firstName<br />";
- print "Last Name: $lastName<br />";
+
  print "Address: $address<br />";
  print "Phone Number: $phone<br />";
  print "Credit Card Type: $cardType<br />";
