@@ -1,6 +1,14 @@
-<?php $title = 'Neves Bookstore';?>
-<?php $currentPage = 'Checkout';?>
 <?php
+    $firstName =      $_GET ["first_name"];
+    $lastName =       $_GET ["last_name"];
+    $address =        $_GET ["address"];
+    $phone =          $_GET ["phone"];
+    $cardType =       $_GET ["card"];
+    $cardExpiration = $_GET ["exp_date"];
+
+    //Made substring for cardNumber to output the last 4
+    $cardNumber =       $_GET ["credit_card"];
+    $cardLast4 = substr($cardNumber, 15, 19);
 
     $item_0 =  $_GET ["item_0"];
     $item_1 =  $_GET ["item_1"];
@@ -14,21 +22,20 @@
     $item_9 =  $_GET ["item_9"];
     $item_10 = $_GET ["item_10"];
     $item_11 = $_GET ["item_11"];
-    $$totalCost = $_GET ["total"]
 ?>
+
 <?php include('head.php');?>
 
 <?php include('header.php');?>
-
-<div class="container">
+    <div class="container">
         <div class="row">
-            <div class="col-9 col-s-9">
+            <div class="col-12 col-s-12">
                 <section>
                     <h2 class="alert-heading">Shopping Cart</h2>
-
-                    <p>Please review your order and fill in your information before you submit it.</p>
+                    <p>Please carefully review your order information before you submit it.</p>
+                    
                    
-                    <h3 class="">Items purchased:</h3>
+                    <h3 class="">Items purchased</h3>
 
                     <?php
                         $txt = "<div class='d-card-columns'>";
@@ -206,53 +213,19 @@
                         $txt = $txt . "</div>";
 
                         print "$txt";
-                        print "<h2 id="totalCost">Your total is <b>$$totalCost</b></h2>";
+                        print "<h2>Your total is <b>$$totalCost</b></h2>";
 
                     ?>
- 
-                    <form>   
-						<div class="form-box">
-							First Name<br>
-							<input id="first_name" type="text" name="first_name" required>
-							<span id="firstNameVerify" class="error" style="visibility: hidden;">Please enter a first name</span>
 
-							<br><br>Last Name<br>
-							<input id="last_name" type="text" name="last_name" required>
-							<span id="lastNameVerify" class="error" style="visibility: hidden;">Please enter a last name</span>
-
-							<br><br>Address<br>
-							<textarea id="address" name="address" rows="5" required placeholder="Street, city, state, zip"></textarea>
-							<span id="addressVerify" class="error" style="visibility: hidden;">Please enter an address</span>
-
-							<br><br>Phone<br>
-							<input id="phone" type="text" name="phone" required placeholder="123-555-5555" onchange="validatePhone(this);" onfocus="this.value=''">
-							<span id="phoneVerify" class="error" style="visibility: hidden;">Please enter a valid phone number</span>
-
-							<br><br>Credit Card type
-							<span id="creditTypeVerify" class="error" style="visibility: hidden;">Please select a credit card type</span><br>
-							<input id="card_visa" type="radio" name="card" value="Visa">Visa<br>
-							<input id="card_master" type="radio" name="card" value="MasterCard">MasterCard<br>
-							<input id="card_american" type="radio" name="card" value="American Express">America Express<br>
-
-							<br><br>Credit Card Number<br>
-							<input id="credit_card" type="text" name="credit_card" maxlength="19" placeholder="1111-1111-1111-1111" onchange="validateCardNumber(this)">
-							<span id="cardNumberVerify" class="error" style="visibility: hidden;">Please enter a card number</span>
-
-							<br><br>Credit Card Expiration Date<br>
-							<input id="exp_date" type="text" name="exp_date" maxlength="7" placeholder="01/2020" onchange="validateDate(this)">
-							<span id="dateVerify" class="error" style="visibility: hidden;">Please enter an expiration date</span>
-
-						</div>
-                    </form>
-
-                    <form action="confirmation.php" method="GET" class="buttons">
+                    <form action="assign03a.php" method="GET" class="buttons">
                         <h3>Do you want to submit this order?</h3>
                         <input id="confirm" type="submit" name="btn-submit" value="Confirm">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
                     </form>
+				
             </section>
 		</div>    
     </div>
 
     <?php include('footer.php');?>
-    
+
