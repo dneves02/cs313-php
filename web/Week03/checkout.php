@@ -14,6 +14,7 @@
     $item_9 =  $_GET ["item_9"];
     $item_10 = $_GET ["item_10"];
     $item_11 = $_GET ["item_11"];
+    $$totalCost = $_GET ["total"]
 ?>
 <?php include('head.php');?>
 
@@ -208,14 +209,8 @@
                         print "<h2 id="totalCost">Your total is <b>$$totalCost</b></h2>";
 
                     ?>
-                </section>
-		</div>    
-    </div>
-    <div class="row">
-        <div class="col-9 col-s-9">
-            <section>               
-                  <form>   
-                  
+ 
+                    <form>   
 						<div class="form-box">
 							First Name<br>
 							<input id="first_name" type="text" name="first_name" required>
