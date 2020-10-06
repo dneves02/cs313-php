@@ -213,12 +213,13 @@
                         $txt = $txt . "</div>";
 
                         print "$txt";
-                        print "<h2>Your total is <b>$$totalCost</b></h2>";
+                        
 
                     ?>
 
+
                     <form action="orderConfirmation.php" method="GET" class="buttons">
-                        
+                    <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>    
                     <div class="form-box">
 							First Name<br>
 							<input id="first_name" type="text" name="first_name" required>

@@ -34,7 +34,7 @@
     <?php print "<h2>$firstName $lastName</h2>";?>
 
 <?php
- print "<h3>Your total is <b>$$totalCost</b></h3>";
+ print "<h3>Your total is: <b>$$totalCost</b></h3>";
  print "First Name: $firstName<br />";
  print "Last Name: $lastName<br />";
  print "Address: $address<br />";
