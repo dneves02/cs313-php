@@ -7,7 +7,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-9 col-s-9">
+            <div class="col-12 col-s-12">
                 <section>
 					<form id="form-grid" onreset="resetForm();" action="assign03.php" method="GET">
 						<div class="d-card-columns">
