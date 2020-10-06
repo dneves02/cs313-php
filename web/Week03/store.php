@@ -142,8 +142,9 @@
 							<input id="total" readonly type="text" name="total" value="0.00">
 						</h2>
                             <br><br><br>
-							<input id="reset" type="reset" name="reset" value="Reset">
-							<input id="validate" type="submit" name="validate" value="Check Out" onclick="checkOut();">
+                            <input id="reset" type="reset" name="reset" value="Reset">
+							<input id="validate" type="submit" name="validate" value="Check Out" onclick="validateAll();">
+
                     </form>                        
                 </section>
             </div>
