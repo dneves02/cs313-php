@@ -247,7 +247,7 @@ session_start();
 							<span id="dateVerify" class="error" style="visibility: hidden;">Please enter an expiration date</span>
                     
                         <h3>Do you want to submit this order?</h3>
-                        <input id="confirm" type="submit" name="btn-submit" value="Confirm">Check Out
+                        <input id="confirm" type="submit" name="btn-submit" value="Check Out">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
                     </form>
 				
