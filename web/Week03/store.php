@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-9 col-s-9">
                 <section>
-					<form id="form-grid" onreset="resetForm();" action="assign03.php" method="GET">
+					<form id="form-grid" onreset="resetForm();" action="checkout.php" method="GET">
 						<div class="d-card-columns">
 							<div class="d-card">
 								<img src="./static/Classic_Bedtime_Stories.jpg" alt="Classic_Bedtime_Stories">
