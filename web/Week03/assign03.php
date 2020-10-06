@@ -29,7 +29,7 @@
 <?php include('header.php');?>
     <div class="container">
         <div class="row">
-            <div class="col-9 col-s-9">
+            <div class="col-12 col-s-12">
                 <section>
                     <h2 class="alert-heading">Shopping Cart</h2>
                     <p>Please carefully review your order information before you submit it.</p>

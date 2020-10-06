@@ -9,7 +9,7 @@
     <div class="container">
         <section>    
             <div class="row">
-                <div class="col-9 col-s-9">
+                <div class="col-12 col-s-12">
                 
 
                     <?php
