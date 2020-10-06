@@ -1,3 +1,5 @@
+<?php $title = 'Neves Bookstore';?>
+<?php $currentPage = 'Order Confirmation';?>
 <?php
 session_start();
 
@@ -34,17 +36,17 @@ session_start();
                     ?>
 
 	
-<?php print "<h2>$firstName $lastName</h2>";?>
+                    <?php print "<h2>$firstName $lastName</h2>";?>
 
-<?php
- print "<h3>Your total is: <b>$$totalCost</b></h3>";
+                    <?php
+                     print "<h3>Your total is: <b>$$totalCost</b></h3>";
 
- print "Address: $address<br />";
- print "Phone Number: $phone<br />";
- print "Credit Card Type: $cardType<br />";
- print "Credit Card Number: **** **** **** $cardLast4<br />";
- print "Credit Card Expiration Date: $cardExpiration<br />";
-?>
+                     print "Address: $address<br />";
+                     print "Phone Number: $phone<br />";
+                     print "Credit Card Type: $cardType<br />";
+                     print "Credit Card Number: **** **** **** $cardLast4<br />";
+                     print "Credit Card Expiration Date: $cardExpiration<br />";
+                    ?>
 
                 </div>
 			</div>

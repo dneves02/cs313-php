@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['totalCost'] = $totalCost;
+?>
+
 <?php $title = 'Neves Bookstore';?>
 <?php $currentPage = 'Home';?>
 

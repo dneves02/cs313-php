@@ -1,7 +1,8 @@
+<?php $title = 'Neves Bookstore';?>
+<?php $currentPage = 'Checkout';?>
 <?php
-
 session_start();
-    $_SESSION['totalCost'] = $totalCost;
+    $totalCost = $_SESSION['totalCost'];
     $item_0 =  $_GET ["item_0"];
     $item_1 =  $_GET ["item_1"];
     $item_2 =  $_GET ["item_2"];
@@ -214,8 +215,8 @@ session_start();
 
 
                     <form action="orderConfirmation.php?totalCost=<?php echo $totalCost ?>" method="GET" class="buttons">
-                    <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>    
-                    <div class="form-box">
+                        <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>
+                        <div class="form-box">
 							First Name<br>
 							<input id="first_name" type="text" name="first_name" required>
 							<span id="firstNameVerify" class="error" style="visibility: hidden;">Please enter a first name</span>
