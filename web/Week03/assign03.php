@@ -62,20 +62,10 @@
 
                 <div class="col-9 col-s-9">
                     <h2 class="alert-heading">Order Confirmation for
-                    <?php
-                        print "$firstName $lastName";
-                    ?>
+                    
                     </h2>
                     <p>Please carefully review your order information before you submit it.</p>
-                    <?php
-                        print "First Name: $firstName<br />";
-                        print "Last Name: $lastName<br />";
-                        print "Address: $address<br />";
-                        print "Phone Number: $phone<br />";
-                        print "Credit Card Type: $cardType<br />";
-                        print "Credit Card Number: **** **** **** $cardLast4<br />";
-                        print "Credit Card Expiration Date: $cardExpiration<br />";
-                    ?>
+                    
                    
                     <h3 class="">Items purchased</h3>
 
@@ -259,7 +249,7 @@
 
                     ?>
 
-                    <form action="assign11_a.php" method="GET" class="buttons">
+                    <form action="assign03a.php" method="GET" class="buttons">
                         <h3>Do you want to submit this order?</h3>
                         <input id="confirm" type="submit" name="btn-submit" value="Confirm">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
