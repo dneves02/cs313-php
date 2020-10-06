@@ -27,13 +27,8 @@ session_start();
                 <section>
                     <h2 class="alert-heading">Shopping Cart</h2>
                     <p>Please carefully review your order information before you submit it.</p>
-                    
-                   
                     <h3 class="">Items selected:</h3>
-
                     <?php
-                    
-                    
                         $txt = "<div class='d-card-columns'>";
                         $totalCost = 0;
 
@@ -209,10 +204,7 @@ session_start();
                         $txt = $txt . "</div>";
 
                         print "$txt";
-                        
-
                     ?>
-
 
                     <form action="orderConfirmation.php?totalCost=<?php echo $totalCost ?>" method="GET" class="buttons">
                         <?php print "<h2>Your total is <b>$$totalCost</b></h2>"; ?>
@@ -247,13 +239,14 @@ session_start();
 							<input id="exp_date" type="text" name="exp_date" maxlength="7" placeholder="01/2020" onchange="validateDate(this)">
 							<span id="dateVerify" class="error" style="visibility: hidden;">Please enter an expiration date</span>
                     
-                        <h3>Do you want to place this order?</h3>
-                        <input id="confirm" type="submit" name="btn-submit" value="Confirm">
-                        <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
+                            <h3>Do you want to place this order?</h3>
+                            <input id="confirm" type="submit" name="btn-submit" value="Confirm">
+                            <input id="cancel" type="submit" name="btn-cancel" value="Cancel">
+                        </div>
                     </form>
-				
-            </section>
-		</div>    
+                </section>
+		    </div>
+		</div>
     </div>
 
     <?php include('footer.php');?>

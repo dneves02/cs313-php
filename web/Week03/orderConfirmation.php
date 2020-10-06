@@ -22,8 +22,6 @@ session_start();
         <section>    
             <div class="row">
                 <div class="col-12 col-s-12">
-                
-
                     <?php
                     if (isset($confirm))
                     {
@@ -47,9 +45,8 @@ session_start();
                      print "Credit Card Number: **** **** **** $cardLast4<br />";
                      print "Credit Card Expiration Date: $cardExpiration<br />";
                     ?>
-
                 </div>
 			</div>
         </section>
-        <?php include('footer.php');?>
     </div>
+    <?php include('footer.php');?>
