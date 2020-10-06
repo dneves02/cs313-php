@@ -246,8 +246,8 @@ session_start();
 							<input id="exp_date" type="text" name="exp_date" maxlength="7" placeholder="01/2020" onchange="validateDate(this)">
 							<span id="dateVerify" class="error" style="visibility: hidden;">Please enter an expiration date</span>
                     
-                        <h3>Do you want to submit this order?</h3>
-                        <input id="confirm" type="submit" name="btn-submit" value="Check Out">
+                        <h3>Do you want to place this order?</h3>
+                        <input id="confirm" type="submit" name="btn-submit" value="Confirm">
                         <input id="cancel" type="submit" name="btn-cancel" value="Cancel">                       
                     </form>
 				

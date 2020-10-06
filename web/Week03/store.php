@@ -144,7 +144,7 @@
                             <br><br><br>
                             <div style="display: inline;">
                                 <input id="reset" type="reset" name="reset" value="Reset">
-							    <input id="validate" type="submit" name="validate" value="Submit" onclick="validateAll();">
+							    <input id="validate" type="submit" name="validate" value="Check Out" onclick="validateAll();">
                             </div>          
                     </form>                        
                 </section>
