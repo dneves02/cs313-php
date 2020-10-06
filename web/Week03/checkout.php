@@ -1,6 +1,4 @@
 <?php
-session_start();
-$_SESSION['totalCost'] = $totalCost;
     
     $item_0 =  $_GET ["item_0"];
     $item_1 =  $_GET ["item_1"];
@@ -31,6 +29,9 @@ $_SESSION['totalCost'] = $totalCost;
                     <h3 class="">Items selected:</h3>
 
                     <?php
+                    session_start();
+                    $_SESSION['totalCost'] = $totalCost;
+                    
                         $txt = "<div class='d-card-columns'>";
                         $totalCost = 0;
 
