@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-    $totalCost = $_GET['totalCost'];
+    $totalCost = $_SESSION['totalCost'];
     $confirm =      $_GET ["btn-submit"];
     $cancel =       $_GET ["btn-cancel"];
     $firstName =      $_GET ["first_name"];
@@ -37,7 +37,7 @@ session_start();
 <?php print "<h2>$firstName $lastName</h2>";?>
 
 <?php
- print "<h3>Your total is: <b>$$_GET['totalCost']</b></h3>";
+ print "<h3>Your total is: <b>$$totalCost</b></h3>";
 
  print "Address: $address<br />";
  print "Phone Number: $phone<br />";
