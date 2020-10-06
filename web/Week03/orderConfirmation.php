@@ -7,7 +7,7 @@
     $phone =          $_GET ["phone"];
     $cardType =       $_GET ["card"];
     $cardExpiration = $_GET ["exp_date"];
-    
+    $$totalCost = $_GET ["totalCost"]
 ?>
 
 <?php include('head.php');?>
