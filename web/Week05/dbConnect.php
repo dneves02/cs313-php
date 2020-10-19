@@ -15,7 +15,23 @@ function get_db() {
 		// default Heroku Postgres configuration URL
 		$dbUrl = getenv('DATABASE_URL');
 
-		
+		if (!isset($dbUrl) || empty($dbUrl)) {
+			// example localhost configuration URL with user: "user", password: "21nov15"
+			// and a database called ""
+			$dbUrl = 'postgres://uaxuoahacaehsj:0fe3a8009bb1895ec30c9f73b234a9d6de1e361c9f477bd591fcfe699b078e58@ec2
+         -54-158-222-248.compute-1.amazonaws.com:5432/d8srftkdeo3t65'
+         ;
+
+			// NOTE: It is not great to put this sensitive information right
+			// here in a file that gets committed to version control. It's not
+			// as bad as putting your Heroku user and password here, but still
+			// not ideal.
+			
+			// It would be better to put your local connection information
+			// into an environment variable on your local computer. That way
+			// it would work consistently regardless of whether the application
+			// were running locally or at heroku.
+		}
 
 		// Get the various parts of the DB Connection from the URL
 		$dbopts = parse_url($dbUrl);
