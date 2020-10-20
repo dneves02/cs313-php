@@ -1,3 +1,9 @@
+$ heroku addons:create heroku-postgresql:hobby-dev
+$ heroku config -s
+DATABASE_URL= 'postgres://uaxuoahacaehsj:0fe3a8009bb1895ec30c9f73b234a9d6de1e361c9f477bd591fcfe699b078e58@ec2
+-54-158-222-248.compute-1.amazonaws.com:5432/d8srftkdeo3t65'
+
+
 # First Create the database
 CREATE DATABASE timecard;
 
@@ -21,6 +27,13 @@ CREATE TABLE public.user (
 	email VARCHAR(100) NOT NULL
 );
 
+INSERT INTO public.user (username , password, email)
+VALUES('dneves', 'pass1234', 'dneves02@gmail.com');
+
+INSERT INTO public.user (username , password, email)
+VALUES('joe', 'mypass', 'dntest@zeeksgeeks.com');
+
+
 CREATE TABLE employees (
     id SERIAL NOT NULL PRIMARY KEY,
     first_name VARCHAR (255),
@@ -29,6 +42,10 @@ CREATE TABLE employees (
     hire_date DATE NOT NULL
 );
 
+INSERT INTO employees (first_name , last_name, birth_date, hire_date)
+VALUES('Davi', 'Neves', '1983-07-02', '2020-06-29');
+
+
 CREATE TABLE time_card (
     id SERIAL NOT NULL PRIMARY KEY,
     date DATE NOT NULL,
@@ -36,3 +53,8 @@ CREATE TABLE time_card (
     clock_in TIME NOT NULL,
     clock_out TIME NOT NULL
 );  
+
+INSERT INTO time_card (date, shift, clock_in, clock_out)
+VALUES('2020-09-29','Morning', '08:00:00', '12:00:00'),
+      ('2020-09-29','Afternoon', '13:00:00', '17:00:00'),
+      ('2020-09-30','Night', '18:00:00', '22:00:00');

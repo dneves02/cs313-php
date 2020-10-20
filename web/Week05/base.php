@@ -42,7 +42,7 @@ $db = get_db();
 // Notice that we avoid using "SELECT *" here. This is considered
 // good practice so we don't inadvertently bring back data we don't
 // want, especially if the database changes later.
-$statement = $db->prepare("SELECT , first_name, last_name, hire_date FROM employees");
+$statement = $db->prepare("SELECT first_name, last_name, birth_date, hire_date FROM employees");
 $statement->execute();
 
 // Go through each result
@@ -56,7 +56,7 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	$birth_date = $row['birth_date'];
 	$hire_date = $row['hire_date'];
 
-	echo "<p><strong>$first_name $last_name, born on $birth_date,  hired: $hire_date.</strong></p>";
+	echo "<p><strong>Employee: $first_name $last_name, DOB: $birth_date, hired: $hire_date.</strong></p>";
 }
 
 ?>
