@@ -8,7 +8,7 @@
 		                <li><a href="./Week03/store.php"><div class="button">Week 03<br /></div></a></li>
 		                <li><a href="./Week04/dbnote.txt"><div class="button">Week 04<br /></div></a></li>
 		                <li><a href="./Week05/base.php"><div class="button">Week 05<br /></div></a></li>
-		                <li><a href="./week06/assign06.html"><div class="button">Week 06<br /></div></a></li>
+		                <li><a href="./week06/ta06.php"><div class="button">Week 06<br /></div></a></li>
 		                <li><a href="./week07/assign07.html"><div class="button">Week 07<br /></div></a></li>
 		                <li><a href="./week08/assign08.html"><div class="button">Week 08<br /></div></a></li>
 		                <li><a href="./week09/assign09.html"><div class="button">Week 09<br /></div></a></li>
