@@ -47,7 +47,7 @@ while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
 $statement2 = $db->prepare("SELECT shift_date, shift_type, clock_in, clock_out FROM time_card");
 $statement2->execute();
 // Go through each result
-while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
+while ($row = $statement2->fetch(PDO::FETCH_ASSOC))
 {
 	// The variable "row" now holds the complete record for that
 	// row, and we can access the different values based on their
