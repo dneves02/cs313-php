@@ -10,16 +10,10 @@
 
 require "../dbConnect.php";
 $db = get_db();
-
+$title = "MyTimeCard"
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Time Card</title>
-</head>
 
-<body>
-<div>
+<?php include('header.php');?>
 
 <h1>Payroll Hours</h1>
 
@@ -65,5 +59,4 @@ while ($row = $statement2->fetch(PDO::FETCH_ASSOC))
 
 </div>
 
-</body>
-</html>
+<?php include('footer.php');?>
