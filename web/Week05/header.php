@@ -18,7 +18,6 @@
     </head>
     <body>
     <div class="container">
-
       <div class="row section">
          <div class="col-md-12 col-sm-12" id="div1">
             <div class="banner-top center-text fill">
