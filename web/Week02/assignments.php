@@ -7,7 +7,7 @@
 		                <li><a href="./Week02/intro.php"><div class="button">Week 02<br /></div></a></li>
 		                <li><a href="./Week03/store.php"><div class="button">Week 03<br /></div></a></li>
 		                <li><a href="./Week04/dbnote.txt"><div class="button">Week 04<br /></div></a></li>
-		                <li><a href="./Week05/index05.php"><div class="button">Week 05<br /></div></a></li>
+		                <li><a href="./Week05/base.php"><div class="button">Week 05<br /></div></a></li>
 		                <li><a href="./Week06/viewScripture.php"><div class="button">Week 06<br /></div></a></li>
 		                <li><a href="./Week02/intro.php"><div class="button">Week 07<br /></div></a></li>
 		                <li><a href="./Week02/intro.php"><div class="button">Week 08<br /></div></a></li>
