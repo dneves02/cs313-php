@@ -1,12 +1,4 @@
-# First Create the database
-CREATE DATABASE timecard;
-
-# Connect to the database, so that our tables, etc., will be there
-\c timecard;
-
-# When you run these commands at Heroku, you won't need (or be able to) create
-# your own separate database first. It will already be created and you will
-# be connected to it.
+# Database TimeCard App
 
 # A few helpful commands you might want during the process:
 # \dt - Lists the tables

@@ -25,28 +25,13 @@ $db = get_db();
 
 <?php
 
-// In this example, for simplicity, the query is executed
-// right here and the data echoed out as we iterate the query.
-
-// You could imagine that in a more involved application, we
-// would likely query the database in a completely separate file / function
-// and build a list of objects that held the components of each
-// scripture. Then, here on the page, we could simply call that 
-// function, and iterate through the list that was returned and
-// print each component.
-
-
 
 // First, prepare the statement
 
-// Notice that we avoid using "SELECT *" here. This is considered
-// good practice so we don't inadvertently bring back data we don't
-// want, especially if the database changes later.
-$statement = $db->prepare("SELECT first_name, last_name, hire_date FROM employees");
-$statement->execute();
-
+$statement1 = $db->prepare("SELECT first_name, last_name, hire_date FROM employees");
+$statement1->execute();
 // Go through each result
-while ($row = $statement->fetch(PDO::FETCH_ASSOC))
+while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
 {
 	// The variable "row" now holds the complete record for that
 	// row, and we can access the different values based on their
@@ -57,6 +42,22 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC))
 	$hire_date = $row['hire_date'];
 
 	echo "<p><strong>Employee: $first_name $last_name, DOB: $birth_date, hired: $hire_date.</strong></p>";
+}
+
+$statement2 = $db->prepare("SELECT date, shift, clock_in, clock_out FROM time_card");
+$statement2->execute();
+// Go through each result
+while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
+{
+	// The variable "row" now holds the complete record for that
+	// row, and we can access the different values based on their
+	// name
+	$shift = $row['shift'];
+	$date = $row['date'];
+	$clock_in = $row['clock_in'];
+	$clock_out = $row['clock_out'];
+
+	echo "<p>Date: $date - Shift: $shift , Start: $clock_in - End: $clock_out</p>";
 }
 
 ?>
