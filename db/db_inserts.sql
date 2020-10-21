@@ -48,13 +48,18 @@ VALUES('Davi', 'Neves', '1983-07-02', '2020-06-29');
 
 CREATE TABLE time_card (
     id SERIAL NOT NULL PRIMARY KEY,
-    date DATE NOT NULL,
-    shift VARCHAR NOT NULL,
+    shift_date DATE NOT NULL,
+    shift_type VARCHAR NOT NULL,
     clock_in TIME NOT NULL,
     clock_out TIME NOT NULL
 );  
 
-INSERT INTO time_card (date, shift, clock_in, clock_out)
+#Select * From time_card;
+INSERT INTO time_card (shift_date, shift_type, clock_in, clock_out)
 VALUES('2020-09-29','Morning', '08:00:00', '12:00:00'),
       ('2020-09-29','Afternoon', '13:00:00', '17:00:00'),
-      ('2020-09-30','Night', '18:00:00', '22:00:00');
+      ('2020-09-30','Night', '18:00:00', '22:00:00'),
+      ('2020-10-03','Afternoon', '18:00:00', '22:00:00'),
+      ('2020-10-04','Morning', '18:00:00', '22:00:00'),
+      ('2020-10-04','Afternoon', '18:00:00', '22:00:00'),
+      ('2020-10-05','Night', '18:00:00', '22:00:00');

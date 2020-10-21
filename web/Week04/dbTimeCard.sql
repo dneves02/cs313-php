@@ -23,8 +23,8 @@ CREATE TABLE employees (
 
 CREATE TABLE time_card (
     id SERIAL NOT NULL PRIMARY KEY,
-    date DATE NOT NULL,
-    shift VARCHAR NOT NULL,
+    shift_date DATE NOT NULL,
+    shift_type VARCHAR,
     clock_in TIME NOT NULL,
     clock_out TIME NOT NULL
 );  
