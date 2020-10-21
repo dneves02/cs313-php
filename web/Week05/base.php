@@ -42,7 +42,7 @@ $db = get_db();
 // Notice that we avoid using "SELECT *" here. This is considered
 // good practice so we don't inadvertently bring back data we don't
 // want, especially if the database changes later.
-$statement = $db->prepare("SELECT first_name, last_name, birth_date, hire_date FROM employees");
+$statement = $db->prepare("SELECT first_name, last_name, hire_date FROM employees");
 $statement->execute();
 
 // Go through each result
