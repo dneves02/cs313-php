@@ -9,5 +9,5 @@
 
         <?php include('./Week02/header.php');?>
         <?php include('./Week02/nav-bar.php');?>
-        <?php include('./Week02/assignments.php');?>
+        <?php include('assignments.php');?>
         <?php include('./Week02/footer.php');?>
