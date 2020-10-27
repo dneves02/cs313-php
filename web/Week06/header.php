@@ -21,10 +21,10 @@
       <div class="row section">
          <div class="col-md-12 col-sm-12" id="div1">
             <div class="banner-top center-text fill">
-               <span class="home-header hover-bold">Welcome to MyTimeCard</span>
-               <br /> <a href="#section4">Send me an email</a>
+               <span class="home-header hover-bold">Welcome to MyTimeCard App</span>
+               <br /> <a href="#section4">Contact Us</a>
             </div>
             <div class="header center-text">Brigham Young University &ndash; Idaho</div>
          <div class="section-header center-text">CS 341 Web Backend Development</div>
       </div>
-      </div>
+    </div>

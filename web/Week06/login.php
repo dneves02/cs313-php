@@ -1,11 +1,9 @@
-
 <?php
 /**********************************************************
-* Project: Time Card/ Base.php
+* Project Time Card/ Login.php
 * Author: Davi Neves
 * 
-* Description: This file is the base to query a
-*   PostgreSQL database from PHP.
+* Description: This file is the base to login into the php.
 ***********************************************************/
 
 require "../dbConnect.php";
@@ -15,20 +13,7 @@ $title = "MyTimeCard"
 
 <?php include('header.php');?>
 
-<div class="container">
-	<h1>Payroll Hours</h1>
-	<div class="row section">
-		<div class="col-md-12 col-sm-12 content-top fill" id="section0.4">
-			<div class="header">Index</div>
-				<ul class="banner">
-					<li><a href="login.php">Login to MyTimeCard App</a></li>
-					<li><a href="createUser.php">Create New User</a></li>
-					<li><a href="clockin.php">Clock in/Clock out</a></li>
-					<li><a href="myHours.php">My Hours</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+<h1>Payroll Hours</h1>
 
 <?php
 
@@ -49,6 +34,22 @@ while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
 	$hire_date = $row['hire_date'];
 
 	echo "<p><strong>Employee: $first_name $last_name, DOB: $birth_date, hired: $hire_date.</strong></p>";
+}
+
+$statement2 = $db->prepare("SELECT shift_date, shift_type, clock_in, clock_out FROM time_card");
+$statement2->execute();
+// Go through each result
+while ($row = $statement2->fetch(PDO::FETCH_ASSOC))
+{
+	// The variable "row" now holds the complete record for that
+	// row, and we can access the different values based on their
+	// name
+	$shift_date = $row['shift_date'];
+	$shift_type = $row['shift_type'];
+	$clock_in = $row['clock_in'];
+	$clock_out = $row['clock_out'];
+
+	echo "<p>Date: $shift_date - Shift: $shift_type , Start: $clock_in - End: $clock_out</p>";
 }
 
 ?>
