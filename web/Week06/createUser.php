@@ -51,7 +51,7 @@ $title = "Create User"
 		$new_user->execute();
 		
 		// Go through and check
-		$statement = $db->prepare("SELECT employees (first_name, last_name, birth_date, hire_date) WHERE (first_name = $first_name)");
+		$statement = $db->prepare("SELECT employees (first_name, last_name, birth_date, hire_date) FROM employees WHERE (first_name = $first_name)");
       $statement->execute();
       while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
       {
