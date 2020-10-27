@@ -16,7 +16,6 @@ $title = "MyTimeCard"
 <?php include('header.php');?>
 
 <div class="container">
-	<h1>Payroll Hours</h1>
 	<div class="row section">
 		<div class="col-md-12 col-sm-12 content-top fill" id="section0.4">
 			<div class="header">Index</div>
@@ -29,8 +28,6 @@ $title = "MyTimeCard"
 			</div>
 		</div>
 	</div>
-
-
 </div>
 
 <?php include('footer.php');?>
