@@ -24,6 +24,7 @@ $title = "MyTimeCard"
 					<li><a href="createUser.php">Create New User</a></li>
 					<li><a href="clockin.php">Clock in/Clock out</a></li>
 					<li><a href="myHours.php">My Hours</a></li>
+					<li><a href="./index.php">My Assignments</a></li>
 				</ul>
 			</div>
 		</div>
