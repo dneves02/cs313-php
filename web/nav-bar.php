@@ -7,7 +7,7 @@
 					<ul class="b">
 						<li><a href="./Week02/intro.php">About Me</a></li>
 						<li><a href="team.php">Team Activities</a></li>
-						<li><a href="#section3">My Assignments</a></li>
+						<li><a href="./Week06/base.php">MyTimeCard App</a></li>
 
 					</ul>
 				</div>

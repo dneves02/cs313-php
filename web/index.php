@@ -8,6 +8,6 @@
     <div class="container">
 
         <?php include('./Week02/header.php');?>
-        <?php include('./Week02/nav-bar.php');?>
+        <?php include('nav-bar.php');?>
         <?php include('assignments.php');?>
         <?php include('./Week02/footer.php');?>
