@@ -17,7 +17,7 @@ $title = "Create New User"
 		<div class="col-md-12 col-sm-12 content-top fill">
 		<h2>Create New User</h2>
 		
-			<form id="create_user" method="POST" action="insertNewUser.php">
+			<form id="create_user" method="POST" action="insertUser.php">
 				
 				<input type="text" name="first_name" size="16">
 				<label for="first_name">First Name: </label> <br>
@@ -44,7 +44,7 @@ $title = "Create New User"
 
 			<br>
 			
-			<button><input type="submit" href="insertUser.php" id="add">Create User</button>
+			<button><input type="submit" href="insertUser.php" id="add" value="Create User"></button>
 
 			</form>
 		
