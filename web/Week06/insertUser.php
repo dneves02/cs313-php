@@ -21,9 +21,11 @@ $db = get_db();
 try
 {
 
-		$query1 = "INSERT INTO employees first_name, last_name, birth_date, hire_date VALUES :first_name, :last_name, :birth_date, :hire_date";
+		$query1 = "INSERT INTO employees (first_name, last_name, birth_date, hire_date)
+						VALUES (:first_name, :last_name, :birth_date, :hire_date)";
 
-		$query2 = "INSERT INTO public.user username, password, email VALUES :username, :password, :email";
+		$query2 = "INSERT INTO public.user (username, password, email)
+						VALUES (:username, :password, :email)";
 
 		$new_employee = $db->prepare($query1);
 		$new_user = $db->prepare($query2);	
@@ -51,7 +53,7 @@ catch (Exception $ex)
 }
 
 // redirect to a new page to actually show the new user
-header("Location: login.php");
+header("Location: newUser.php");
 
 die();
 
