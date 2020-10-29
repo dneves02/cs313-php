@@ -53,7 +53,7 @@ catch (Exception $ex)
 }
 
 // redirect to a new page to actually show the new user
-header("Location: newUser.php");
+header("Location: login.php");
 
 die();
 
