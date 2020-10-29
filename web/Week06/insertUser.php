@@ -13,10 +13,11 @@ $hire_date = $_POST['hire_date'];
 $email = $_POST['email'];
 $username = $_POST['username'];
 $password = $_POST['password'];
-$title = "Create New User"
+
 
 require "../dbConnect.php";
 $db = get_db();
+$title = "Create New User"
 
 try
 {
@@ -44,6 +45,7 @@ try
 		$new_user->execute();
 
 }
+
 catch (Exception $ex)
 {
 	// Please be aware that you don't want to output the Exception message in
