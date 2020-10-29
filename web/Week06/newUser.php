@@ -40,7 +40,7 @@ try
 				$birth_date = $row['birth_date'];
 				$hire_date = $row['hire_date'];
 
-				echo "<p><strong>Employee: $first_name1 $last_name1, DOB: $birth_date1, hired: $hire_date1.</strong></p>";
+				echo "<p><strong>Employee: $first_name $last_name, DOB: $birth_date, hired: $hire_date.</strong></p>";
 		}
 
 		while ($row = $new_user->fetch(PDO::FETCH_ASSOC))
@@ -52,7 +52,7 @@ try
          $password = $row['password'];
          $email = $row['email'];
 
-         echo "<p>Username: $username - password: ******* , Email: $email</p>";
+         echo "<p>Username: $username - Password: $password , Email: $email</p>";
       }
 
 }
