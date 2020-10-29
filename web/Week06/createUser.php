@@ -44,7 +44,7 @@ $title = "Create New User"
 
 			<br>
 			
-			<button><input type="submit" href="insertUser.php" id="add" value="Create User"></button>
+			<button><input type="submit" id="add" value="Create User"></button>
 
 			</form>
 		
