@@ -17,7 +17,7 @@ $password = $_POST['password'];
 
 require "../dbConnect.php";
 $db = get_db();
-$title = "Create New User"
+$title = "Create New User";
 
 try
 {
