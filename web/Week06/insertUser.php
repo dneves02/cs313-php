@@ -22,27 +22,24 @@ $title = "Create New User"
 try
 {
 
-		$query1 = "INSERT INTO employees (first_name, last_name, birth_date, hire_date)
-						VALUES (:first_name, :last_name, :birth_date, :hire_date)";
+		$query = "INSERT INTO public.user (username , user_password, email, first_name , last_name, birth_date, hire_date)
+						VALUES(:username , :user_password, :email, :first_name , :last_name, :birth_date, :hire_date)";
+		
+	
 
-		$query2 = "INSERT INTO public.user (username, password, email)
-						VALUES (:username, :password, :email)";
-
-		$new_employee = $db->prepare($query1);
-		$new_user = $db->prepare($query2);	
-
+		$new_employee = $db->prepare($query);
+			
+		$new_employee->bindValue(':username', $username);
+		$new_employee->bindValue(':user_password', $user_password);
+		$new_employee->bindValue(':email', $email);
 		$new_employee->bindValue(':first_name', $first_name);
 		$new_employee->bindValue(':last_name', $last_name);
 		$new_employee->bindValue(':birth_date', $birth_date);
 		$new_employee->bindValue(':hire_date', $hire_date);
-
-
-		$new_user->bindValue(':username', $username);
-		$new_user->bindValue(':password', $password);
-		$new_user->bindValue(':email', $email);
-
+		
 		$new_employee->execute();
-		$new_user->execute();
+
+		$new_employeeId = $db->lastInsertId("user_id_seq");
 
 }
 
@@ -55,7 +52,7 @@ catch (Exception $ex)
 }
 
 // redirect to a new page to actually show the new user
-header("Location: newUser.php");
+header("Location: newUser.php?new_employee_id=$new_employeeId");
 
 die();
 

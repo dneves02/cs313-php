@@ -23,14 +23,18 @@ CREATE DATABASE timecard;
 CREATE TABLE public.user (
 	id SERIAL NOT NULL PRIMARY KEY,
 	username VARCHAR(100) NOT NULL UNIQUE,
-	password VARCHAR(100) NOT NULL,
-	email VARCHAR(100) NOT NULL
+	user_password VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL,
+    first_name VARCHAR (255),
+    last_name VARCHAR (355),
+    birth_date DATE,
+    hire_date DATE  
 );
 
-INSERT INTO public.user (username , password, email)
-VALUES('dneves', 'pass1234', 'dneves02@gmail.com');
+INSERT INTO public.user (username , user_password, email, first_name , last_name, birth_date, hire_date)
+VALUES('dneves', 'pass1234', 'dneves02@gmail.com', 'Davi', 'Neves', '1983-07-02', '2020-06-29');
 
-INSERT INTO public.user (username , password, email)
+INSERT INTO public.user (username , user_password, email)
 VALUES('joe', 'mypass', 'dntest@zeeksgeeks.com');
 
 
@@ -42,8 +46,8 @@ CREATE TABLE employees (
     hire_date DATE NOT NULL
 );
 
-INSERT INTO employees (first_name , last_name, birth_date, hire_date)
-VALUES('Davi', 'Neves', '1983-07-02', '2020-06-29');
+INSERT INTO employees )
+VALUES(-29');
 
 
 CREATE TABLE time_card (
