@@ -12,7 +12,7 @@ $birth_date = $_POST['birth_date'];
 $hire_date = $_POST['hire_date'];
 $email = $_POST['email'];
 $username = $_POST['username'];
-$password = $_POST['password'];
+$user_password = $_POST['user_password'];
 
 
 require "../dbConnect.php";
