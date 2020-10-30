@@ -37,8 +37,8 @@ $title = "Create New User"
 				<input type="text" name="username" size="16">
 				<label for="username">Username: </label> <br>
 				
-				<input type="text" name="password" size="16">
-				<label for="password">Password: </label> <br>
+				<input type="text" name="user_password" size="16">
+				<label for="user_password">Password: </label> <br>
 
 
 
