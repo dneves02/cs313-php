@@ -5,7 +5,7 @@
 * 
 * Description: This file is the base to create a new user.
 ***********************************************************/
-$title = "Create New User"
+$title = "Create New User";
 
 require "../dbConnect.php";
 $db = get_db();
