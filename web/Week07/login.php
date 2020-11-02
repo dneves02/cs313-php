@@ -33,7 +33,7 @@ $title = "MyTimeCard"
          <br>
          
          <br>
-         <a href="createUser.php">Sign Up</a>
+         <a href="createUser.php">  Sign Up </a>
 			</form>
    
       </div>
