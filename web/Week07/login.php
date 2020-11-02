@@ -30,6 +30,9 @@ $title = "MyTimeCard"
 			<br>
 			
 			<button><input type="submit" id="add" value="Login"></button>
+         <br>
+         <p>or</p>
+         <br>
          <a href="createUser.php">Sign Up</a>
 			</form>
       <?php
