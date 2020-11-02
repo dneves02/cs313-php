@@ -9,16 +9,12 @@
 CREATE TABLE public.user (
 	id SERIAL NOT NULL PRIMARY KEY,
 	username VARCHAR(100) NOT NULL UNIQUE,
-	password VARCHAR(100) NOT NULL,
-	email VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE employees (
-    id SERIAL NOT NULL PRIMARY KEY,
+	user_password VARCHAR(100) NOT NULL,
+	email VARCHAR(100) NOT NULL,
     first_name VARCHAR (255),
     last_name VARCHAR (355),
-    birth_date DATE NOT NULL,
-    hire_date DATE NOT NULL
+    birth_date DATE,
+    hire_date DATE  
 );
 
 CREATE TABLE time_card (

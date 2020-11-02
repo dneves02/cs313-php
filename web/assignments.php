@@ -9,7 +9,7 @@
 		                <li><a href="./Week04/dbTimeCard.txt"><div class="button">Week 04<br /></div></a></li>
 		                <li><a href="./Week05/base.php"><div class="button">Week 05<br /></div></a></li>
 		                <li><a href="./Week06/base.php"><div class="button">Week 06<br /></div></a></li>
-		                <li><a href="./Week02/intro.php"><div class="button">Week 07<br /></div></a></li>
+		                <li><a href="./Week07/base.php"><div class="button">Week 07<br /></div></a></li>
 		                <li><a href="./Week02/intro.php"><div class="button">Week 08<br /></div></a></li>
 		                <li><a href="./Week02/intro.php"><div class="button">Week 09<br /></div></a></li>
 		                <li><a href="./Week02/intro.php"><div class="button">Week 10<br /></div></a></li>

@@ -46,10 +46,6 @@ CREATE TABLE employees (
     hire_date DATE NOT NULL
 );
 
-INSERT INTO employees )
-VALUES(-29');
-
-
 CREATE TABLE time_card (
     id SERIAL NOT NULL PRIMARY KEY,
     shift_date DATE NOT NULL,
