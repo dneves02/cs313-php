@@ -17,7 +17,7 @@ $title = "MyTimeCard"
 		<div class="col-md-12 col-sm-12 content-top fill" id="login">
       <h1>Login</h1>
 
-         <form id="create_user" method="POST" action="insertUser.php">
+         <form id="create_user" method="POST" action="usersHome.php">
 						
 				<input type="text" name="username" size="16">
 				<label for="username">Username: </label> <br>
