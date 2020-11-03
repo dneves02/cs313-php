@@ -18,6 +18,22 @@ $title = "MyTimeCard"
 		<div class="col-md-12 col-sm-12 content-top fill" id="clockin">
       <h1>Clock in / Clock out</h1>
 
+      <form id="create_user" method="POST" action="insertUser.php">
+				
+				<input type="time" name="clock_in" size="16">
+				<label for="username">Clock in</label> <br>
+				
+				<input type="time" name="clock_in" size="16">
+				<label for="user_password">Clock out</label> <br>
+
+
+
+			<br>
+			
+			<button><input type="submit" id="add" value="Add Time"></button>
+
+			</form>
+		
       <?php
 
 
