@@ -8,6 +8,10 @@
 ***********************************************************/
 session_start();
 $_SESSION['shift_id'] = $shift_id;
+$clock_in = $_POST['clock_in'];
+
+$_SESSION['user'] = $_POST['username'];
+
 
 require "../dbConnect.php";
 $db = get_db();

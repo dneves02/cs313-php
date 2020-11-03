@@ -21,7 +21,7 @@ $title = "MyTimeCard"
       <h1>Clock in / Clock out</h1>
 
          <form id="clock" method="POST" action="insertTime.php">       
-               <button><input type="submit" id="clock_out" value="Clock Out"></button>      
+               <button><input type="submit" id="clock_in" value="Clock In"></button>      
          </form>
      
       </div>

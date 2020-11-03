@@ -5,6 +5,8 @@
 * 
 * Description: This file is the base to login into the php.
 ***********************************************************/
+session_start();
+$_SESSION['user'] = $_POST['username'];
 
 require "../dbConnect.php";
 $db = get_db();
