@@ -1,18 +1,21 @@
-<?php
-/**********************************************************
-* Project: Time Card/ Clock in /Clock out.php
-* Author: Davi Neves
-* 
-* Description: This file is the base to query a
-*   PostgreSQL database from PHP.
-***********************************************************/
-session_start();
-$_SESSION['shift_id'] = $shift_id;
 
-require "../dbConnect.php";
-$db = get_db();
-$title = "MyTimeCard"
-?>
+
+<?php include('header.php');?>
+<div class="container">
+	<div class="row section">
+		<div class="col-md-12 col-sm-12 content-top fill" id="clockin">
+      <h1>Clock in / Clock out</h1>
+
+         <form id="clock" method="POST" action="insertTime.php">       
+               <button><input type="submit" id="clock_out" value="Clock Out"></button>      
+         </form>
+     
+      </div>
+   </div>
+</div>
+
+<?php include('footer.php');?>
+
 
 <?php
 // First, prepare the statement
@@ -29,25 +32,23 @@ while ($row = $statement1->fetch(PDO::FETCH_ASSOC))
    $first_name = $row['first_name'];
    $last_name = $row['last_name'];
    $shift_date = $row['shift_date'];
-   $hire_date = $row['hire_date'];
+   $clock_in = $row['clock_in'];
 
-   echo "<p><strong>Employee: $first_name $last_name, DOB: $birth_date, hired: $hire_date.</strong></p>";
+   echo "<p><strong>Employee: $first_name $last_name, Date: $shift_date, Clocked in: $clock_in.</strong></p>";
 }
 
 try
 {
 
-		$query = "INSERT INTO time_card (shift_date, shift_type, clock_in, clock_out)
-                  VALUES(:shift_date, :shift_type, :clock_in, :clock_out)";
+		$query = "UPDATE TABLE time_card (clock_out)
+                  VALUES(:clock_out)";
 						
 		
 	
 
 		$new_time = $db->prepare($query);
 			
-		$new_time->bindValue(':shift_date', $shift_date);
-		$new_time->bindValue(':shift_type', $shift_type);
-		$new_time->bindValue(':clock_in', $clock_in);
+
 		$new_time->bindValue(':clock_out', $clock_out);
 		
 		$new_time->execute();

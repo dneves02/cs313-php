@@ -6,6 +6,8 @@
 * Description: This file is the base to query a
 *   PostgreSQL database from PHP.
 ***********************************************************/
+session_start();
+$_SESSION['user_id'] = $user_id;
 
 require "../dbConnect.php";
 $db = get_db();
@@ -19,9 +21,6 @@ $title = "MyTimeCard"
       <h1>Clock in / Clock out</h1>
 
          <form id="clock" method="POST" action="insertTime.php">       
-               <button><input type="submit" id="clock_in" value="Clock In"></button>
-               <br>
-               <br>
                <button><input type="submit" id="clock_out" value="Clock Out"></button>      
          </form>
      
