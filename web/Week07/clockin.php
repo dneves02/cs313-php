@@ -3,8 +3,7 @@
 * Project: Time Card/ Clock in /Clock out.php
 * Author: Davi Neves
 * 
-* Description: This file is the base to query a
-*   PostgreSQL database from PHP.
+* Description: This file allows a user to clock in/out hours
 ***********************************************************/
 
 require "../dbConnect.php";
@@ -16,7 +15,7 @@ $title = "MyTimeCard"
 <div class="container">
 	<div class="row section">
 		<div class="col-md-12 col-sm-12 content-top fill" id="clockin">
-      <h1>Clock in / Clock out</h1>
+      <h1>My Time Clock</h1>
 
       <form id="create_user" method="POST" action="insertUser.php">
       

@@ -25,9 +25,7 @@ $title = "MyTimeCard"
 				<input type="text" name="user_password" size="16">
 				<label for="user_password">Password: </label> <br>
 
-
-
-			<br>
+			   <br>
 			
 			<button><input type="submit" id="add" value="Login"></button>
          <br>
