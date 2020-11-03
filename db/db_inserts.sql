@@ -51,7 +51,7 @@ CREATE TABLE time_card (
     shift_date DATE NOT NULL,
     shift_type VARCHAR NOT NULL,
     clock_in TIME,
-    clock_out TIME,
+    clock_out TIME
 );  
 
 #Select * From time_card;
