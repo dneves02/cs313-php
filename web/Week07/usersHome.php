@@ -15,7 +15,7 @@ $title = "MyTimeCard"
 <div class="container">
 	<div class="row section">
 		<div class="col-md-12 col-sm-12 content-top fill" id="section0.4">
-			<div class="header">My Home Page</div>
+			<div class="header"> MyTimeCard Home</div>
 				<ul class="banner">
 					
 					<li><a href="clockin.php">Time Clock</a></li>
