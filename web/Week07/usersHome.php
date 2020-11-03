@@ -20,7 +20,7 @@ $title = "MyTimeCard"
 					
 					<li><a href="clockin.php">Time Clock</a></li>
 					<li><a href="myHours.php">My Hours</a></li>
-					<li><a href="../index.php">My Assignments</a></li>
+					
 
                <li><a href="base.php">Logout</a></li>
 				</ul>
