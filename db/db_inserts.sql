@@ -50,8 +50,8 @@ CREATE TABLE time_card (
     id SERIAL NOT NULL PRIMARY KEY,
     shift_date DATE NOT NULL,
     shift_type VARCHAR NOT NULL,
-    clock_in TIME NOT NULL,
-    clock_out TIME NOT NULL
+    clock_in TIME,
+    clock_out TIME
 );  
 
 #Select * From time_card;

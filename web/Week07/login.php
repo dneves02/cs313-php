@@ -22,7 +22,7 @@ $title = "MyTimeCard"
 				<input type="text" name="username" size="16">
 				<label for="username">Username: </label> <br>
 				
-				<input type="text" name="user_password" size="16">
+				<input type="password" name="user_password" size="14">
 				<label for="user_password">Password: </label> <br>
 
 			   <br>
