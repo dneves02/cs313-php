@@ -28,16 +28,16 @@ $title = "Create New User"
 				<input type="text" name="email" size="16">
 				<label for="email">Email:	</label> <br>
 
-				<input type="text" name="birth_date" size="16">
+				<input type="date" name="birth_date" size="16">
 				<label for="birth_date">DOB: </label> <br>
 				
-				<input type="text" name="hire_date" size="16">
+				<input type="date" name="hire_date" size="16">
 				<label for="hire_date">Hired Date: </label> <br>
 				
 				<input type="text" name="username" size="16">
 				<label for="username">Username: </label> <br>
 				
-				<input type="text" name="user_password" size="16">
+				<input type="password" name="user_password" size="16">
 				<label for="user_password">Password: </label> <br>
 
 
