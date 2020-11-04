@@ -1,17 +1,19 @@
 <?php
+
 /**********************************************************
 * Project Time Card/ Login.php
 * Author: Davi Neves
 * 
 * Description: This file is the base to login into the php.
 ***********************************************************/
-<<<<<<< HEAD
+session_start();
 $username = $_POST['username'];
 $user_password = $_POST['user_password'];
-=======
-session_start();
-$_SESSION['user'] = $_POST['username'];
->>>>>>> ea333e142921085096f1e72321309bc53c984f7b
+
+
+
+
+$_SESSION['user'] = $username;
 
 require "../dbConnect.php";
 $db = get_db();
